@@ -43,7 +43,7 @@
 						<label for="email">Email:</label>
 						<input type="email" class="form-control" id="email" name="email" required>
 					</div>
-					<center><button type="submit" class="btn btn-primary btn-block btn-lg" name="submit">Reset Password</button></center>
+					<center><button type="submit" class="btn btn-dark btn-block btn-lg" name="submit">Reset Password</button></center>
 				</form>
                 </div>
 			</div>

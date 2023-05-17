@@ -19,7 +19,7 @@
 <?php
  session_start();
 
- if (!isset($_SESSION['username'])) {
+ if (!isset($_SESSION['name'])) {
    header('Location: login.php');
    exit;
  }
@@ -93,7 +93,7 @@ if (isset($_POST['delete'])) {
       <?php } ?>
     </tbody>
   </table>
-  <a href="login.html" class="btn btn-primary btn-sm float-right">Logout</a>
+  <a href="login.php" class="btn btn-primary btn-sm float-right">Kembali</a>
 </div>
 
 <!-- Inisialisasi DataTables -->
